@@ -1,0 +1,36 @@
+\documentclass{article}
+\usepackage{amsmath}
+
+\begin{document}
+
+\textbf{Supply Chain Management Example 1 - Simplex Method}
+
+A manufacturing company produces three products: Product X, Product Y, and Product Z. The production of Product X requires 2 units of raw material A and 3 units of raw material B. The production of Product Y requires 4 units of raw material A and 1 unit of raw material B. The production of Product Z requires 3 units of raw material A and 2 units of raw material B. The company has 80 units of raw material A and 50 units of raw material B available. The profit per unit of Product X is $30, Product Y is $40, and Product Z is $50. The goal is to maximize the total profit.
+
+The objective function:
+Maximize 30x + 40y + 50z
+
+Subject to:
+2x + 4y + 3z <= 80 (Raw material A constraint)
+3x + y + 2z <= 50 (Raw material B constraint)
+x >= 0, y >= 0, z >= 0
+
+\textbf{Solution:}
+(Simplex method steps and the optimal production quantities for Product X, Product Y, and Product Z)
+
+\textbf{Supply Chain Management Example 2 - Simplex Method}
+
+A distribution company manages two warehouses: Warehouse A and Warehouse B. The transportation cost per unit from Warehouse A to three locations (Location X, Location Y, Location Z) is $10, $15, and $20 respectively. The transportation cost per unit from Warehouse B to the same three locations is $12, $18, and $22 respectively. The company has a total transportation budget of $2000. The goal is to minimize the total transportation cost.
+
+The objective function:
+Minimize 10x + 15y + 20z + 12u + 18v + 22w
+
+Subject to:
+x + y + z <= 1000 (Transportation limit from Warehouse A)
+u + v + w <= 1000 (Transportation limit from Warehouse B)
+x >= 0, y >= 0, z >= 0, u >= 0, v >= 0, w >= 0
+
+\textbf{Solution:}
+(Simplex method steps and the optimal transportation quantities from Warehouse A and Warehouse B to each location)
+
+\end{document}
